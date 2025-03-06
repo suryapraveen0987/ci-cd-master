@@ -1,0 +1,68 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 50px;
+    }
+
+    .workout {
+      width: 30%;
+      margin-bottom: 30px;
+      text-align: left;
+    }
+
+    .workout img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 15px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #f00;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .home-link {
+        display: inline-block;
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+        margin-top: 10px;
+      }
+     
+      .cta-button.clicked {
+        transform: scale(1.2);
+      }
+      #countdown {
+        font-size: 36px;
+        margin-top: 10px;
+        color:#f00;
+        font-family: 'Arial', sans-serif;
+        letter-spacing: 2px;
+      }
+  
+      /* Additional styling for a container around the countdown */
+      #countdown-container {
+        text-align: center;
+      }

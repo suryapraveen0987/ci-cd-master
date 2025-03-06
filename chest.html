@@ -1,0 +1,45 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chest Workout</title>
+  <link rel="stylesheet" href="workoutcss.css">
+</head>
+<body>
+  <header>
+    <h1>Chest Workout</h1>
+    <a href="home1.html" class="home-link">&#8962; Home</a>
+  </header>
+
+  <div class="content">
+    <div class="workout">
+      <h2>Exercise 1: Push-ups</h2>
+      <p>Push-ups are a classic chest exercise that also work your shoulders and triceps.</p>
+      <img src="https://media1.giphy.com/media/5t9IcXiBCyw60XPpGu/giphy.gif" alt="Push-ups Image">
+      <a href="#" class="cta-button" onclick="startExercise(this, 'countdown')">Start Exercise</a>
+    </div>
+
+    <div class="workout">
+      <h2>Exercise 2: Bench Press</h2>
+      <p>Bench press is a compound exercise that targets the chest, shoulders, and triceps.</p>
+      <img src="https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Bench-Press.gif" alt="Bench Press Image">
+      <a href="#" class="cta-button" onclick="startExercise(this, 'countdown')">Start Exercise</a>
+    </div>
+
+    <div class="workout">
+      <h2>Exercise 3: Dumbbell Flyes</h2>
+      <p>Dumbbell flyes isolate the chest muscles and improve range of motion.</p>
+      <img src="https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Fly.gif" alt="Dumbbell Flyes Image">
+      <a href="#" class="cta-button" onclick="startExercise(this, 'countdown')">Start Exercise</a>
+    </div>
+
+    <!-- Add a div to display the countdown -->
+    <div id="countdown"></div>
+  </div>
+
+  <script src="workoutjs.js"></script>
+</body>
+</html>
